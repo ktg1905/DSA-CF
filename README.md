@@ -6,34 +6,34 @@
 
 | Total Problems | Topics |
 |---|---|
-| 91 | 22 |
+| 99 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (1)
-- [binary search](#binary-search) (4)
+- [binary search](#binary-search) (5)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (12)
+- [brute force](#brute-force) (15)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (16)
-- [data structures](#data-structures) (6)
+- [constructive algorithms](#constructive-algorithms) (17)
+- [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (2)
 - [dp](#dp) (10)
 - [dsu](#dsu) (1)
-- [games](#games) (3)
+- [games](#games) (4)
 - [geometry](#geometry) (2)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (49)
+- [greedy](#greedy) (52)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (17)
-- [math](#math) (43)
+- [implementation](#implementation) (18)
+- [math](#math) (48)
 - [number theory](#number-theory) (10)
-- [sortings](#sortings) (19)
-- [strings](#strings) (7)
-- [two pointers](#two-pointers) (2)
+- [sortings](#sortings) (21)
+- [strings](#strings) (8)
+- [two pointers](#two-pointers) (3)
 
 ---
 
@@ -41,323 +41,343 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2240C | [Nim Game Is XOR Game](https://codeforces.com/contest/2240/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2240/C%20-%20Nim%20Game%20Is%20XOR%20Game/solution.cpp) |
+| 2240C | [Nim Game Is XOR Game](https://codeforces.com/contest/2240/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2240/C%20-%20Nim%20Game%20Is%20XOR%20Game/solution.cpp) |
 
 ### binary search
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
-| 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
-| 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
-| 2237C | [Duck Surplus](https://codeforces.com/contest/2237/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2237/C%20-%20Duck%20Surplus/solution.cpp) |
+| 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
+| 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
+| 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
+| 2237C | [Duck Surplus](https://codeforces.com/contest/2237/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2237/C%20-%20Duck%20Surplus/solution.cpp) |
+| 2254E | [Chronostasis](https://codeforces.com/contest/2254/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2254/E%20-%20Chronostasis/solution.cpp) |
 
 ### bitmasks
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
-| 579A | [Raising Bacteria](https://codeforces.com/contest/579/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/579/A%20-%20Raising%20Bacteria/solution.cpp) |
-| 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
-| 2176B | [Optimal Shifts](https://codeforces.com/contest/2176/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2176/B%20-%20Optimal%20Shifts/solution.cpp) |
+| 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
+| 579A | [Raising Bacteria](https://codeforces.com/contest/579/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/579/A%20-%20Raising%20Bacteria/solution.cpp) |
+| 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
+| 2176B | [Optimal Shifts](https://codeforces.com/contest/2176/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/B%20-%20Optimal%20Shifts/solution.cpp) |
 
 ### brute force
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 80A | [Panoramix's Prediction](https://codeforces.com/contest/80/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/80/A%20-%20Panoramix's%20Prediction/solution.cpp) |
-| 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
-| 2123C | [Prefix Min and Suffix Max](https://codeforces.com/contest/2123/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2123/C%20-%20Prefix%20Min%20and%20Suffix%20Max/solution.cpp) |
-| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
-| 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
-| 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2133/A%20-%20Redstone%3F/solution.cpp) |
-| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.cpp) |
-| 2204A | [Passing the Ball](https://codeforces.com/contest/2204/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2204/A%20-%20Passing%20the%20Ball/solution.cpp) |
-| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
-| 2233A | [AI Project Development](https://codeforces.com/contest/2233/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2233/A%20-%20AI%20Project%20Development/solution.cpp) |
-| 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.cpp) |
-| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
+| 80A | [Panoramix's Prediction](https://codeforces.com/contest/80/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/80/A%20-%20Panoramix's%20Prediction/solution.cpp) |
+| 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
+| 2123C | [Prefix Min and Suffix Max](https://codeforces.com/contest/2123/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2123/C%20-%20Prefix%20Min%20and%20Suffix%20Max/solution.cpp) |
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
+| 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
+| 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2133/A%20-%20Redstone%3F/solution.cpp) |
+| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.cpp) |
+| 2204A | [Passing the Ball](https://codeforces.com/contest/2204/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2204/A%20-%20Passing%20the%20Ball/solution.cpp) |
+| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
+| 2233A | [AI Project Development](https://codeforces.com/contest/2233/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2233/A%20-%20AI%20Project%20Development/solution.cpp) |
+| 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.cpp) |
+| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
+| 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
+| 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.cpp) |
+| 2258B2 | [Carrot Chopdown (Hard Version)](https://codeforces.com/contest/2258/problem/B2) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2258/B2%20-%20Carrot%20Chopdown%20(Hard%20Version)/solution.cpp) |
 
 ### chinese remainder theorem
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2217C | [Grid Covering](https://codeforces.com/contest/2217/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2217/C%20-%20Grid%20Covering/solution.cpp) |
+| 2217C | [Grid Covering](https://codeforces.com/contest/2217/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2217/C%20-%20Grid%20Covering/solution.cpp) |
 
 ### combinatorics
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.cpp) |
+| 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.cpp) |
 
 ### constructive algorithms
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2118A | [Equal Subsequences](https://codeforces.com/contest/2118/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2118/A%20-%20Equal%20Subsequences/solution.cpp) |
-| 2130B | [Pathless](https://codeforces.com/contest/2130/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2130/B%20-%20Pathless/solution.cpp) |
-| 2131B | [Alternating Series](https://codeforces.com/contest/2131/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2131/B%20-%20Alternating%20Series/solution.cpp) |
-| 2134A | [Painting With Two Colors](https://codeforces.com/contest/2134/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2134/A%20-%20Painting%20With%20Two%20Colors/solution.cpp) |
-| 2137A | [Collatz Conjecture](https://codeforces.com/contest/2137/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2137/A%20-%20Collatz%20Conjecture/solution.cpp) |
-| 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.cpp) |
-| 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.cpp) |
-| 2210A | [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2210/A%20-%20A%20Simple%20Sequence/solution.cpp) |
-| 2231A | [Construct an Array](https://codeforces.com/contest/2231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2231/A%20-%20Construct%20an%20Array/solution.cpp) |
-| 2233B | [Different Distances](https://codeforces.com/contest/2233/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2233/B%20-%20Different%20Distances/solution.cpp) |
-| 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.cpp) |
-| 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
-| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
-| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
-| 2246A | [farmpiggie and Subset Sum](https://codeforces.com/contest/2246/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2246/A%20-%20farmpiggie%20and%20Subset%20Sum/solution.cpp) |
-| 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
+| 2118A | [Equal Subsequences](https://codeforces.com/contest/2118/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2118/A%20-%20Equal%20Subsequences/solution.cpp) |
+| 2130B | [Pathless](https://codeforces.com/contest/2130/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2130/B%20-%20Pathless/solution.cpp) |
+| 2131B | [Alternating Series](https://codeforces.com/contest/2131/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2131/B%20-%20Alternating%20Series/solution.cpp) |
+| 2134A | [Painting With Two Colors](https://codeforces.com/contest/2134/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2134/A%20-%20Painting%20With%20Two%20Colors/solution.cpp) |
+| 2137A | [Collatz Conjecture](https://codeforces.com/contest/2137/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2137/A%20-%20Collatz%20Conjecture/solution.cpp) |
+| 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.cpp) |
+| 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.cpp) |
+| 2210A | [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2210/A%20-%20A%20Simple%20Sequence/solution.cpp) |
+| 2231A | [Construct an Array](https://codeforces.com/contest/2231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2231/A%20-%20Construct%20an%20Array/solution.cpp) |
+| 2233B | [Different Distances](https://codeforces.com/contest/2233/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2233/B%20-%20Different%20Distances/solution.cpp) |
+| 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.cpp) |
+| 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
+| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
+| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
+| 2246A | [farmpiggie and Subset Sum](https://codeforces.com/contest/2246/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2246/A%20-%20farmpiggie%20and%20Subset%20Sum/solution.cpp) |
+| 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
+| 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2254/D%20-%20Silhouette/solution.cpp) |
 
 ### data structures
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2123C | [Prefix Min and Suffix Max](https://codeforces.com/contest/2123/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2123/C%20-%20Prefix%20Min%20and%20Suffix%20Max/solution.cpp) |
-| 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2133/A%20-%20Redstone%3F/solution.cpp) |
-| 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
-| 2210B | [Simply Sitting on Chairs](https://codeforces.com/contest/2210/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2210/B%20-%20Simply%20Sitting%20on%20Chairs/solution.cpp) |
-| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
-| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
+| 2123C | [Prefix Min and Suffix Max](https://codeforces.com/contest/2123/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2123/C%20-%20Prefix%20Min%20and%20Suffix%20Max/solution.cpp) |
+| 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2133/A%20-%20Redstone%3F/solution.cpp) |
+| 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
+| 2210B | [Simply Sitting on Chairs](https://codeforces.com/contest/2210/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2210/B%20-%20Simply%20Sitting%20on%20Chairs/solution.cpp) |
+| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
+| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
+| 2254E | [Chronostasis](https://codeforces.com/contest/2254/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2254/E%20-%20Chronostasis/solution.cpp) |
 
 ### dfs and similar
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
-| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
+| 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
+| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 
 ### dp
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.cpp) |
-| 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
-| 2208C | [Stamina and Tasks](https://codeforces.com/contest/2208/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2208/C%20-%20Stamina%20and%20Tasks/solution.cpp) |
-| 2210A | [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2210/A%20-%20A%20Simple%20Sequence/solution.cpp) |
-| 2225C | [Red-Black Pairs](https://codeforces.com/contest/2225/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2225/C%20-%20Red-Black%20Pairs/solution.cpp) |
-| 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
-| 2238B | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2238/B%20-%20Crimson%20Triples/solution.cpp) |
-| 2241D | [An Alternative Way](https://codeforces.com/contest/2241/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2241/D%20-%20An%20Alternative%20Way/solution.cpp) |
-| 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
-| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
+| 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.cpp) |
+| 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
+| 2208C | [Stamina and Tasks](https://codeforces.com/contest/2208/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2208/C%20-%20Stamina%20and%20Tasks/solution.cpp) |
+| 2210A | [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2210/A%20-%20A%20Simple%20Sequence/solution.cpp) |
+| 2225C | [Red-Black Pairs](https://codeforces.com/contest/2225/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2225/C%20-%20Red-Black%20Pairs/solution.cpp) |
+| 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
+| 2238B | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2238/B%20-%20Crimson%20Triples/solution.cpp) |
+| 2241D | [An Alternative Way](https://codeforces.com/contest/2241/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2241/D%20-%20An%20Alternative%20Way/solution.cpp) |
+| 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
+| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
 
 ### dsu
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
+| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 
 ### games
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
-| 2228B | [Remilia Plays Soku](https://codeforces.com/contest/2228/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2228/B%20-%20Remilia%20Plays%20Soku/solution.cpp) |
-| 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
+| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
+| 2228B | [Remilia Plays Soku](https://codeforces.com/contest/2228/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2228/B%20-%20Remilia%20Plays%20Soku/solution.cpp) |
+| 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
+| 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.cpp) |
 
 ### geometry
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2119B | [Line Segments](https://codeforces.com/contest/2119/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2119/B%20-%20Line%20Segments/solution.cpp) |
-| 2148B | [Lasers](https://codeforces.com/contest/2148/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2148/B%20-%20Lasers/solution.cpp) |
+| 2119B | [Line Segments](https://codeforces.com/contest/2119/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/B%20-%20Line%20Segments/solution.cpp) |
+| 2148B | [Lasers](https://codeforces.com/contest/2148/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2148/B%20-%20Lasers/solution.cpp) |
 
 ### graphs
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
+| 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
 
 ### greedy
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
-| 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
-| 2118A | [Equal Subsequences](https://codeforces.com/contest/2118/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2118/A%20-%20Equal%20Subsequences/solution.cpp) |
-| 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
-| 2119B | [Line Segments](https://codeforces.com/contest/2119/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2119/B%20-%20Line%20Segments/solution.cpp) |
-| 2123B | [Tournament](https://codeforces.com/contest/2123/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2123/B%20-%20Tournament/solution.cpp) |
-| 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.cpp) |
-| 2126C | [I Will Definitely Make It](https://codeforces.com/contest/2126/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2126/C%20-%20I%20Will%20Definitely%20Make%20It/solution.cpp) |
-| 2128A | [Recycling Center](https://codeforces.com/contest/2128/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2128/A%20-%20Recycling%20Center/solution.cpp) |
-| 2130A | [Submission is All You Need](https://codeforces.com/contest/2130/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2130/A%20-%20Submission%20is%20All%20You%20Need/solution.cpp) |
-| 2131B | [Alternating Series](https://codeforces.com/contest/2131/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2131/B%20-%20Alternating%20Series/solution.cpp) |
-| 2133B | [Villagers](https://codeforces.com/contest/2133/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2133/B%20-%20Villagers/solution.cpp) |
-| 2136A | [In the Dream](https://codeforces.com/contest/2136/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2136/A%20-%20In%20the%20Dream/solution.cpp) |
-| 2139A | [Maple and Multiplication](https://codeforces.com/contest/2139/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2139/A%20-%20Maple%20and%20Multiplication/solution.cpp) |
-| 2139B | [Cake Collection](https://codeforces.com/contest/2139/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2139/B%20-%20Cake%20Collection/solution.cpp) |
-| 2146B | [Merging the Sets](https://codeforces.com/contest/2146/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2146/B%20-%20Merging%20the%20Sets/solution.cpp) |
-| 2149B | [Unconventional Pairs](https://codeforces.com/contest/2149/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2149/B%20-%20Unconventional%20Pairs/solution.cpp) |
-| 2176A | [Operations with Inversions](https://codeforces.com/contest/2176/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2176/A%20-%20Operations%20with%20Inversions/solution.cpp) |
-| 2176B | [Optimal Shifts](https://codeforces.com/contest/2176/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2176/B%20-%20Optimal%20Shifts/solution.cpp) |
-| 2176C | [Odd Process](https://codeforces.com/contest/2176/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2176/C%20-%20Odd%20Process/solution.cpp) |
-| 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.cpp) |
-| 2200A | [Eating Game](https://codeforces.com/contest/2200/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2200/A%20-%20Eating%20Game/solution.cpp) |
-| 2204B | [Right Maximum](https://codeforces.com/contest/2204/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2204/B%20-%20Right%20Maximum/solution.cpp) |
-| 2205C | [Simons and Posting Blogs](https://codeforces.com/contest/2205/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2205/C%20-%20Simons%20and%20Posting%20Blogs/solution.cpp) |
-| 2208C | [Stamina and Tasks](https://codeforces.com/contest/2208/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2208/C%20-%20Stamina%20and%20Tasks/solution.cpp) |
-| 2210A | [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2210/A%20-%20A%20Simple%20Sequence/solution.cpp) |
-| 2210B | [Simply Sitting on Chairs](https://codeforces.com/contest/2210/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2210/B%20-%20Simply%20Sitting%20on%20Chairs/solution.cpp) |
-| 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.cpp) |
-| 2220A | [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2220/A%20-%20Blocked/solution.cpp) |
-| 2220B | [OIE Excursion](https://codeforces.com/contest/2220/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2220/B%20-%20OIE%20Excursion/solution.cpp) |
-| 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.cpp) |
-| 2225C | [Red-Black Pairs](https://codeforces.com/contest/2225/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2225/C%20-%20Red-Black%20Pairs/solution.cpp) |
-| 2226B | [Everything Everywhere](https://codeforces.com/contest/2226/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2226/B%20-%20Everything%20Everywhere/solution.cpp) |
-| 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.cpp) |
-| 2232A | [Convergence](https://codeforces.com/contest/2232/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2232/A%20-%20Convergence/solution.cpp) |
-| 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
-| 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
-| 2236A | [Games on the Train](https://codeforces.com/contest/2236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2236/A%20-%20Games%20on%20the%20Train/solution.cpp) |
-| 2237C | [Duck Surplus](https://codeforces.com/contest/2237/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2237/C%20-%20Duck%20Surplus/solution.cpp) |
-| 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
-| 2240A | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2240/A%20-%20Another%20Popcount%20Problem/solution.cpp) |
-| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
-| 2241C | [RemovevomeR](https://codeforces.com/contest/2241/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2241/C%20-%20RemovevomeR/solution.cpp) |
-| 2241D | [An Alternative Way](https://codeforces.com/contest/2241/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2241/D%20-%20An%20Alternative%20Way/solution.cpp) |
-| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
-| 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
-| 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
-| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
-| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
+| 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
+| 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
+| 2118A | [Equal Subsequences](https://codeforces.com/contest/2118/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2118/A%20-%20Equal%20Subsequences/solution.cpp) |
+| 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
+| 2119B | [Line Segments](https://codeforces.com/contest/2119/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/B%20-%20Line%20Segments/solution.cpp) |
+| 2123B | [Tournament](https://codeforces.com/contest/2123/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2123/B%20-%20Tournament/solution.cpp) |
+| 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.cpp) |
+| 2126C | [I Will Definitely Make It](https://codeforces.com/contest/2126/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2126/C%20-%20I%20Will%20Definitely%20Make%20It/solution.cpp) |
+| 2128A | [Recycling Center](https://codeforces.com/contest/2128/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2128/A%20-%20Recycling%20Center/solution.cpp) |
+| 2130A | [Submission is All You Need](https://codeforces.com/contest/2130/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2130/A%20-%20Submission%20is%20All%20You%20Need/solution.cpp) |
+| 2131B | [Alternating Series](https://codeforces.com/contest/2131/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2131/B%20-%20Alternating%20Series/solution.cpp) |
+| 2133B | [Villagers](https://codeforces.com/contest/2133/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2133/B%20-%20Villagers/solution.cpp) |
+| 2136A | [In the Dream](https://codeforces.com/contest/2136/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2136/A%20-%20In%20the%20Dream/solution.cpp) |
+| 2139A | [Maple and Multiplication](https://codeforces.com/contest/2139/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2139/A%20-%20Maple%20and%20Multiplication/solution.cpp) |
+| 2139B | [Cake Collection](https://codeforces.com/contest/2139/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2139/B%20-%20Cake%20Collection/solution.cpp) |
+| 2146B | [Merging the Sets](https://codeforces.com/contest/2146/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2146/B%20-%20Merging%20the%20Sets/solution.cpp) |
+| 2149B | [Unconventional Pairs](https://codeforces.com/contest/2149/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2149/B%20-%20Unconventional%20Pairs/solution.cpp) |
+| 2176A | [Operations with Inversions](https://codeforces.com/contest/2176/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/A%20-%20Operations%20with%20Inversions/solution.cpp) |
+| 2176B | [Optimal Shifts](https://codeforces.com/contest/2176/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/B%20-%20Optimal%20Shifts/solution.cpp) |
+| 2176C | [Odd Process](https://codeforces.com/contest/2176/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/C%20-%20Odd%20Process/solution.cpp) |
+| 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.cpp) |
+| 2200A | [Eating Game](https://codeforces.com/contest/2200/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2200/A%20-%20Eating%20Game/solution.cpp) |
+| 2204B | [Right Maximum](https://codeforces.com/contest/2204/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2204/B%20-%20Right%20Maximum/solution.cpp) |
+| 2205C | [Simons and Posting Blogs](https://codeforces.com/contest/2205/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2205/C%20-%20Simons%20and%20Posting%20Blogs/solution.cpp) |
+| 2208C | [Stamina and Tasks](https://codeforces.com/contest/2208/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2208/C%20-%20Stamina%20and%20Tasks/solution.cpp) |
+| 2210A | [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2210/A%20-%20A%20Simple%20Sequence/solution.cpp) |
+| 2210B | [Simply Sitting on Chairs](https://codeforces.com/contest/2210/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2210/B%20-%20Simply%20Sitting%20on%20Chairs/solution.cpp) |
+| 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.cpp) |
+| 2220A | [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2220/A%20-%20Blocked/solution.cpp) |
+| 2220B | [OIE Excursion](https://codeforces.com/contest/2220/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2220/B%20-%20OIE%20Excursion/solution.cpp) |
+| 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.cpp) |
+| 2225C | [Red-Black Pairs](https://codeforces.com/contest/2225/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2225/C%20-%20Red-Black%20Pairs/solution.cpp) |
+| 2226B | [Everything Everywhere](https://codeforces.com/contest/2226/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2226/B%20-%20Everything%20Everywhere/solution.cpp) |
+| 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.cpp) |
+| 2232A | [Convergence](https://codeforces.com/contest/2232/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2232/A%20-%20Convergence/solution.cpp) |
+| 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
+| 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
+| 2236A | [Games on the Train](https://codeforces.com/contest/2236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2236/A%20-%20Games%20on%20the%20Train/solution.cpp) |
+| 2237C | [Duck Surplus](https://codeforces.com/contest/2237/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2237/C%20-%20Duck%20Surplus/solution.cpp) |
+| 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
+| 2240A | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2240/A%20-%20Another%20Popcount%20Problem/solution.cpp) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
+| 2241C | [RemovevomeR](https://codeforces.com/contest/2241/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2241/C%20-%20RemovevomeR/solution.cpp) |
+| 2241D | [An Alternative Way](https://codeforces.com/contest/2241/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2241/D%20-%20An%20Alternative%20Way/solution.cpp) |
+| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
+| 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
+| 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
+| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
+| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
+| 2253C | [Sum of Distinct Values in a Matrix](https://codeforces.com/contest/2253/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2253/C%20-%20Sum%20of%20Distinct%20Values%20in%20a%20Matrix/solution.cpp) |
+| 2254E | [Chronostasis](https://codeforces.com/contest/2254/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2254/E%20-%20Chronostasis/solution.cpp) |
+| 2258B2 | [Carrot Chopdown (Hard Version)](https://codeforces.com/contest/2258/problem/B2) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2258/B2%20-%20Carrot%20Chopdown%20(Hard%20Version)/solution.cpp) |
 
 ### hashing
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.cpp) |
+| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.cpp) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
-| 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.cpp) |
-| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
-| 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
-| 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2133/A%20-%20Redstone%3F/solution.cpp) |
-| 2134A | [Painting With Two Colors](https://codeforces.com/contest/2134/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2134/A%20-%20Painting%20With%20Two%20Colors/solution.cpp) |
-| 2146B | [Merging the Sets](https://codeforces.com/contest/2146/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2146/B%20-%20Merging%20the%20Sets/solution.cpp) |
-| 2176A | [Operations with Inversions](https://codeforces.com/contest/2176/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2176/A%20-%20Operations%20with%20Inversions/solution.cpp) |
-| 2204A | [Passing the Ball](https://codeforces.com/contest/2204/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2204/A%20-%20Passing%20the%20Ball/solution.cpp) |
-| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
-| 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2227/A%20-%20Koshary/solution.cpp) |
-| 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.cpp) |
-| 2228B | [Remilia Plays Soku](https://codeforces.com/contest/2228/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2228/B%20-%20Remilia%20Plays%20Soku/solution.cpp) |
-| 2230A | [Optimal Purchase](https://codeforces.com/contest/2230/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2230/A%20-%20Optimal%20Purchase/solution.cpp) |
-| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
-| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
-| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
+| 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
+| 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.cpp) |
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
+| 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
+| 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2133/A%20-%20Redstone%3F/solution.cpp) |
+| 2134A | [Painting With Two Colors](https://codeforces.com/contest/2134/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2134/A%20-%20Painting%20With%20Two%20Colors/solution.cpp) |
+| 2146B | [Merging the Sets](https://codeforces.com/contest/2146/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2146/B%20-%20Merging%20the%20Sets/solution.cpp) |
+| 2176A | [Operations with Inversions](https://codeforces.com/contest/2176/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/A%20-%20Operations%20with%20Inversions/solution.cpp) |
+| 2204A | [Passing the Ball](https://codeforces.com/contest/2204/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2204/A%20-%20Passing%20the%20Ball/solution.cpp) |
+| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
+| 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2227/A%20-%20Koshary/solution.cpp) |
+| 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.cpp) |
+| 2228B | [Remilia Plays Soku](https://codeforces.com/contest/2228/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2228/B%20-%20Remilia%20Plays%20Soku/solution.cpp) |
+| 2230A | [Optimal Purchase](https://codeforces.com/contest/2230/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2230/A%20-%20Optimal%20Purchase/solution.cpp) |
+| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
+| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
+| 2258B2 | [Carrot Chopdown (Hard Version)](https://codeforces.com/contest/2258/problem/B2) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2258/B2%20-%20Carrot%20Chopdown%20(Hard%20Version)/solution.cpp) |
 
 ### math
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
-| 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
-| 2119B | [Line Segments](https://codeforces.com/contest/2119/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2119/B%20-%20Line%20Segments/solution.cpp) |
-| 2123A | [Blackboard Game](https://codeforces.com/contest/2123/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2123/A%20-%20Blackboard%20Game/solution.cpp) |
-| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
-| 2130A | [Submission is All You Need](https://codeforces.com/contest/2130/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2130/A%20-%20Submission%20is%20All%20You%20Need/solution.cpp) |
-| 2131A | [Lever](https://codeforces.com/contest/2131/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2131/A%20-%20Lever/solution.cpp) |
-| 2131B | [Alternating Series](https://codeforces.com/contest/2131/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2131/B%20-%20Alternating%20Series/solution.cpp) |
-| 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2133/A%20-%20Redstone%3F/solution.cpp) |
-| 2134A | [Painting With Two Colors](https://codeforces.com/contest/2134/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2134/A%20-%20Painting%20With%20Two%20Colors/solution.cpp) |
-| 2136A | [In the Dream](https://codeforces.com/contest/2136/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2136/A%20-%20In%20the%20Dream/solution.cpp) |
-| 2137A | [Collatz Conjecture](https://codeforces.com/contest/2137/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2137/A%20-%20Collatz%20Conjecture/solution.cpp) |
-| 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.cpp) |
-| 2139A | [Maple and Multiplication](https://codeforces.com/contest/2139/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2139/A%20-%20Maple%20and%20Multiplication/solution.cpp) |
-| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.cpp) |
-| 2149A | [Be Positive](https://codeforces.com/contest/2149/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2149/A%20-%20Be%20Positive/solution.cpp) |
-| 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2167/A%20-%20Square%3F/solution.cpp) |
-| 2176A | [Operations with Inversions](https://codeforces.com/contest/2176/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2176/A%20-%20Operations%20with%20Inversions/solution.cpp) |
-| 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.cpp) |
-| 2208C | [Stamina and Tasks](https://codeforces.com/contest/2208/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2208/C%20-%20Stamina%20and%20Tasks/solution.cpp) |
-| 2217C | [Grid Covering](https://codeforces.com/contest/2217/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2217/C%20-%20Grid%20Covering/solution.cpp) |
-| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
-| 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.cpp) |
-| 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.cpp) |
-| 2226B | [Everything Everywhere](https://codeforces.com/contest/2226/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2226/B%20-%20Everything%20Everywhere/solution.cpp) |
-| 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2227/A%20-%20Koshary/solution.cpp) |
-| 2230A | [Optimal Purchase](https://codeforces.com/contest/2230/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2230/A%20-%20Optimal%20Purchase/solution.cpp) |
-| 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
-| 2233A | [AI Project Development](https://codeforces.com/contest/2233/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2233/A%20-%20AI%20Project%20Development/solution.cpp) |
-| 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
-| 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.cpp) |
-| 2236A | [Games on the Train](https://codeforces.com/contest/2236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2236/A%20-%20Games%20on%20the%20Train/solution.cpp) |
-| 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
-| 2238B | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2238/B%20-%20Crimson%20Triples/solution.cpp) |
-| 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.cpp) |
-| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
-| 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
-| 2241D | [An Alternative Way](https://codeforces.com/contest/2241/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2241/D%20-%20An%20Alternative%20Way/solution.cpp) |
-| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
-| 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
-| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
-| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
-| 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.cpp) |
+| 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
+| 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
+| 2119B | [Line Segments](https://codeforces.com/contest/2119/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/B%20-%20Line%20Segments/solution.cpp) |
+| 2123A | [Blackboard Game](https://codeforces.com/contest/2123/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2123/A%20-%20Blackboard%20Game/solution.cpp) |
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
+| 2130A | [Submission is All You Need](https://codeforces.com/contest/2130/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2130/A%20-%20Submission%20is%20All%20You%20Need/solution.cpp) |
+| 2131A | [Lever](https://codeforces.com/contest/2131/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2131/A%20-%20Lever/solution.cpp) |
+| 2131B | [Alternating Series](https://codeforces.com/contest/2131/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2131/B%20-%20Alternating%20Series/solution.cpp) |
+| 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2133/A%20-%20Redstone%3F/solution.cpp) |
+| 2134A | [Painting With Two Colors](https://codeforces.com/contest/2134/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2134/A%20-%20Painting%20With%20Two%20Colors/solution.cpp) |
+| 2136A | [In the Dream](https://codeforces.com/contest/2136/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2136/A%20-%20In%20the%20Dream/solution.cpp) |
+| 2137A | [Collatz Conjecture](https://codeforces.com/contest/2137/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2137/A%20-%20Collatz%20Conjecture/solution.cpp) |
+| 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.cpp) |
+| 2139A | [Maple and Multiplication](https://codeforces.com/contest/2139/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2139/A%20-%20Maple%20and%20Multiplication/solution.cpp) |
+| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.cpp) |
+| 2149A | [Be Positive](https://codeforces.com/contest/2149/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2149/A%20-%20Be%20Positive/solution.cpp) |
+| 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2167/A%20-%20Square%3F/solution.cpp) |
+| 2176A | [Operations with Inversions](https://codeforces.com/contest/2176/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/A%20-%20Operations%20with%20Inversions/solution.cpp) |
+| 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.cpp) |
+| 2208C | [Stamina and Tasks](https://codeforces.com/contest/2208/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2208/C%20-%20Stamina%20and%20Tasks/solution.cpp) |
+| 2217C | [Grid Covering](https://codeforces.com/contest/2217/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2217/C%20-%20Grid%20Covering/solution.cpp) |
+| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
+| 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.cpp) |
+| 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.cpp) |
+| 2226B | [Everything Everywhere](https://codeforces.com/contest/2226/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2226/B%20-%20Everything%20Everywhere/solution.cpp) |
+| 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2227/A%20-%20Koshary/solution.cpp) |
+| 2230A | [Optimal Purchase](https://codeforces.com/contest/2230/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2230/A%20-%20Optimal%20Purchase/solution.cpp) |
+| 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
+| 2233A | [AI Project Development](https://codeforces.com/contest/2233/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2233/A%20-%20AI%20Project%20Development/solution.cpp) |
+| 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
+| 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.cpp) |
+| 2236A | [Games on the Train](https://codeforces.com/contest/2236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2236/A%20-%20Games%20on%20the%20Train/solution.cpp) |
+| 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
+| 2238B | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2238/B%20-%20Crimson%20Triples/solution.cpp) |
+| 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.cpp) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
+| 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
+| 2241D | [An Alternative Way](https://codeforces.com/contest/2241/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2241/D%20-%20An%20Alternative%20Way/solution.cpp) |
+| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
+| 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
+| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
+| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
+| 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2254/D%20-%20Silhouette/solution.cpp) |
+| 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.cpp) |
+| 2257B | [Gigantomachy](https://codeforces.com/contest/2257/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2257/B%20-%20Gigantomachy/solution.cpp) |
+| 2258A | [Odd Eraser](https://codeforces.com/contest/2258/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2258/A%20-%20Odd%20Eraser/solution.cpp) |
+| 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.cpp) |
+| 2258B2 | [Carrot Chopdown (Hard Version)](https://codeforces.com/contest/2258/problem/B2) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2258/B2%20-%20Carrot%20Chopdown%20(Hard%20Version)/solution.cpp) |
 
 ### number theory
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.cpp) |
-| 2210A | [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2210/A%20-%20A%20Simple%20Sequence/solution.cpp) |
-| 2217C | [Grid Covering](https://codeforces.com/contest/2217/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2217/C%20-%20Grid%20Covering/solution.cpp) |
-| 2226B | [Everything Everywhere](https://codeforces.com/contest/2226/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2226/B%20-%20Everything%20Everywhere/solution.cpp) |
-| 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
-| 2238B | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2238/B%20-%20Crimson%20Triples/solution.cpp) |
-| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
-| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
-| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
-| 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
+| 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.cpp) |
+| 2210A | [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2210/A%20-%20A%20Simple%20Sequence/solution.cpp) |
+| 2217C | [Grid Covering](https://codeforces.com/contest/2217/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2217/C%20-%20Grid%20Covering/solution.cpp) |
+| 2226B | [Everything Everywhere](https://codeforces.com/contest/2226/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2226/B%20-%20Everything%20Everywhere/solution.cpp) |
+| 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
+| 2238B | [Crimson Triples](https://codeforces.com/contest/2238/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2238/B%20-%20Crimson%20Triples/solution.cpp) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
+| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
+| 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
+| 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
 
 ### sortings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.cpp) |
-| 2126C | [I Will Definitely Make It](https://codeforces.com/contest/2126/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2126/C%20-%20I%20Will%20Definitely%20Make%20It/solution.cpp) |
-| 2128A | [Recycling Center](https://codeforces.com/contest/2128/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2128/A%20-%20Recycling%20Center/solution.cpp) |
-| 2149B | [Unconventional Pairs](https://codeforces.com/contest/2149/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2149/B%20-%20Unconventional%20Pairs/solution.cpp) |
-| 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2167/A%20-%20Square%3F/solution.cpp) |
-| 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2167/B%20-%20Your%20Name/solution.cpp) |
-| 2176C | [Odd Process](https://codeforces.com/contest/2176/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2176/C%20-%20Odd%20Process/solution.cpp) |
-| 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
-| 2205C | [Simons and Posting Blogs](https://codeforces.com/contest/2205/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2205/C%20-%20Simons%20and%20Posting%20Blogs/solution.cpp) |
-| 2220A | [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2220/A%20-%20Blocked/solution.cpp) |
-| 2232A | [Convergence](https://codeforces.com/contest/2232/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2232/A%20-%20Convergence/solution.cpp) |
-| 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
-| 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
-| 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2242/A%20-%20Bigrams/solution.cpp) |
-| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
-| 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
-| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
-| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
-| 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.cpp) |
+| 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.cpp) |
+| 2126C | [I Will Definitely Make It](https://codeforces.com/contest/2126/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2126/C%20-%20I%20Will%20Definitely%20Make%20It/solution.cpp) |
+| 2128A | [Recycling Center](https://codeforces.com/contest/2128/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2128/A%20-%20Recycling%20Center/solution.cpp) |
+| 2149B | [Unconventional Pairs](https://codeforces.com/contest/2149/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2149/B%20-%20Unconventional%20Pairs/solution.cpp) |
+| 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2167/A%20-%20Square%3F/solution.cpp) |
+| 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2167/B%20-%20Your%20Name/solution.cpp) |
+| 2176C | [Odd Process](https://codeforces.com/contest/2176/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/C%20-%20Odd%20Process/solution.cpp) |
+| 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
+| 2205C | [Simons and Posting Blogs](https://codeforces.com/contest/2205/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2205/C%20-%20Simons%20and%20Posting%20Blogs/solution.cpp) |
+| 2220A | [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2220/A%20-%20Blocked/solution.cpp) |
+| 2232A | [Convergence](https://codeforces.com/contest/2232/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2232/A%20-%20Convergence/solution.cpp) |
+| 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
+| 2238A | [Another Puzzle from Papyrus](https://codeforces.com/contest/2238/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2238/A%20-%20Another%20Puzzle%20from%20Papyrus/solution.cpp) |
+| 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2242/A%20-%20Bigrams/solution.cpp) |
+| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
+| 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
+| 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
+| 2253C | [Sum of Distinct Values in a Matrix](https://codeforces.com/contest/2253/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2253/C%20-%20Sum%20of%20Distinct%20Values%20in%20a%20Matrix/solution.cpp) |
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
+| 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2254/D%20-%20Silhouette/solution.cpp) |
+| 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.cpp) |
 
 ### strings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
-| 2110B | [Down with Brackets](https://codeforces.com/contest/2110/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2110/B%20-%20Down%20with%20Brackets/solution.cpp) |
-| 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
-| 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2167/B%20-%20Your%20Name/solution.cpp) |
-| 2176B | [Optimal Shifts](https://codeforces.com/contest/2176/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2176/B%20-%20Optimal%20Shifts/solution.cpp) |
-| 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2242/A%20-%20Bigrams/solution.cpp) |
-| 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
+| 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
+| 2110B | [Down with Brackets](https://codeforces.com/contest/2110/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2110/B%20-%20Down%20with%20Brackets/solution.cpp) |
+| 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
+| 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2167/B%20-%20Your%20Name/solution.cpp) |
+| 2176B | [Optimal Shifts](https://codeforces.com/contest/2176/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/B%20-%20Optimal%20Shifts/solution.cpp) |
+| 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2242/A%20-%20Bigrams/solution.cpp) |
+| 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
+| 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.cpp) |
 
 ### two pointers
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
-| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
+| 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
+| 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
+| 2253C | [Sum of Distinct Values in a Matrix](https://codeforces.com/contest/2253/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2253/C%20-%20Sum%20of%20Distinct%20Values%20in%20a%20Matrix/solution.cpp) |
 
 ---
 
