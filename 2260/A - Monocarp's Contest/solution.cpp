@@ -1,28 +1,28 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
+ 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
- 
+ 
     int t;
     cin>>t;
     while(t--){
         int n;
         cin>>n;
- 
+ 
         vector<int> a;
         int num_0=0;
         for(int i=0; i<n; i++){
             int x;
             cin>>x;
- 
+ 
             a.push_back(x);
             if(x==0){
                 num_0++;
             }
         }
- 
+ 
         if(num_0<2){
             cout<<-1<<'
 ';
@@ -46,8 +46,8 @@ int main() {
             }
         }
     }
- 
+ 
     
- 
+ 
     return 0;
 }
