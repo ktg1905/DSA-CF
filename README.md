@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 109 | 22 |
+| 111 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (9)
+- [Uncategorized](#uncategorized) (11)
 - [binary search](#binary-search) (6)
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (16)
@@ -50,6 +50,8 @@
 | 2260B | [Monocarp and Projects](https://codeforces.com/contest/2260/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2260/B%20-%20Monocarp%20and%20Projects/solution.cpp) |
 | 2260C | [Maximize XOR, Minimize Operations](https://codeforces.com/contest/2260/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2260/C%20-%20Maximize%20XOR%2C%20Minimize%20Operations/solution.cpp) |
 | 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.cpp) |
+| 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.cpp) |
+| 2264B | [Knife's Pill Farm](https://codeforces.com/contest/2264/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2264/B%20-%20Knife's%20Pill%20Farm/solution.cpp) |
 
 ### binary search
 
