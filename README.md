@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 120 | 22 |
+| 121 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (19)
+- [Uncategorized](#uncategorized) (20)
 - [binary search](#binary-search) (6)
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (16)
@@ -60,6 +60,7 @@
 | 2266E | [Prime Destruction](https://codeforces.com/contest/2266/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2266/E%20-%20Prime%20Destruction/solution.cpp) |
 | 2267A | [Turn Into a Palindrome](https://codeforces.com/contest/2267/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2267/A%20-%20Turn%20Into%20a%20Palindrome/solution.cpp) |
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.cpp) |
+| 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.cpp) |
 
 ### binary search
 
