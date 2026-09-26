@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 126 | 22 |
+| 127 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (23)
+- [Uncategorized](#uncategorized) (24)
 - [binary search](#binary-search) (6)
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (17)
@@ -64,6 +64,7 @@
 | 2267D | [Backrooms Hill](https://codeforces.com/contest/2267/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2267/D%20-%20Backrooms%20Hill/solution.cpp) |
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.cpp) |
+| 2269C | [K Is Important](https://codeforces.com/contest/2269/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2269/C%20-%20K%20Is%20Important/solution.cpp) |
 
 ### binary search
 
