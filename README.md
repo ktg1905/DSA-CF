@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 127 | 22 |
+| 129 | 22 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (17)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
-- [combinatorics](#combinatorics) (1)
+- [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (18)
 - [data structures](#data-structures) (7)
 - [dfs and similar](#dfs-and-similar) (3)
@@ -28,11 +28,11 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (58)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (20)
-- [math](#math) (51)
-- [number theory](#number-theory) (11)
+- [implementation](#implementation) (21)
+- [math](#math) (52)
+- [number theory](#number-theory) (12)
 - [sortings](#sortings) (21)
-- [strings](#strings) (10)
+- [strings](#strings) (11)
 - [two pointers](#two-pointers) (4)
 
 ---
@@ -119,6 +119,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1674C | [Infinite Replacement](https://codeforces.com/contest/1674/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1674/C%20-%20Infinite%20Replacement/solution.cpp) |
 | 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.cpp) |
 
 ### constructive algorithms
@@ -284,6 +285,7 @@
 |---|---------|------------|----------|
 | 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
 | 892B | [Wrath](https://codeforces.com/contest/892/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/892/B%20-%20Wrath/solution.cpp) |
+| 1674C | [Infinite Replacement](https://codeforces.com/contest/1674/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1674/C%20-%20Infinite%20Replacement/solution.cpp) |
 | 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.cpp) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
 | 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
@@ -308,6 +310,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
+| 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
 | 1925B | [A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1925/B%20-%20A%20Balanced%20Problemset%3F/solution.cpp) |
 | 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
 | 2119B | [Line Segments](https://codeforces.com/contest/2119/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/B%20-%20Line%20Segments/solution.cpp) |
@@ -363,6 +366,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
 | 1925B | [A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1925/B%20-%20A%20Balanced%20Problemset%3F/solution.cpp) |
 | 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.cpp) |
 | 2210A | [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2210/A%20-%20A%20Simple%20Sequence/solution.cpp) |
@@ -406,6 +410,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
+| 1674C | [Infinite Replacement](https://codeforces.com/contest/1674/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1674/C%20-%20Infinite%20Replacement/solution.cpp) |
 | 2110B | [Down with Brackets](https://codeforces.com/contest/2110/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2110/B%20-%20Down%20with%20Brackets/solution.cpp) |
 | 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
 | 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2167/B%20-%20Your%20Name/solution.cpp) |
