@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 134 | 22 |
+| 135 | 22 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (18)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
-- [combinatorics](#combinatorics) (2)
+- [combinatorics](#combinatorics) (3)
 - [constructive algorithms](#constructive-algorithms) (18)
 - [data structures](#data-structures) (10)
 - [dfs and similar](#dfs-and-similar) (3)
@@ -25,7 +25,7 @@
 - [dsu](#dsu) (1)
 - [games](#games) (4)
 - [geometry](#geometry) (2)
-- [graphs](#graphs) (1)
+- [graphs](#graphs) (2)
 - [greedy](#greedy) (59)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (23)
@@ -122,6 +122,7 @@
 |---|---------|------------|----------|
 | 1674C | [Infinite Replacement](https://codeforces.com/contest/1674/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1674/C%20-%20Infinite%20Replacement/solution.cpp) |
 | 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.cpp) |
+| 2276D | [Caveman](https://codeforces.com/contest/2276/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2276/D%20-%20Caveman/solution.cpp) |
 
 ### constructive algorithms
 
@@ -213,6 +214,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
+| 2276D | [Caveman](https://codeforces.com/contest/2276/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2276/D%20-%20Caveman/solution.cpp) |
 
 ### greedy
 
