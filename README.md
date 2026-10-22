@@ -6,19 +6,19 @@
 
 | Total Problems | Topics |
 |---|---|
-| 140 | 22 |
+| 141 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (24)
-- [binary search](#binary-search) (7)
+- [binary search](#binary-search) (8)
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (19)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (3)
-- [constructive algorithms](#constructive-algorithms) (20)
+- [constructive algorithms](#constructive-algorithms) (21)
 - [data structures](#data-structures) (10)
 - [dfs and similar](#dfs-and-similar) (3)
 - [dp](#dp) (12)
@@ -26,11 +26,11 @@
 - [games](#games) (4)
 - [geometry](#geometry) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (60)
+- [greedy](#greedy) (61)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (24)
-- [math](#math) (55)
-- [number theory](#number-theory) (13)
+- [math](#math) (56)
+- [number theory](#number-theory) (14)
 - [sortings](#sortings) (21)
 - [strings](#strings) (14)
 - [two pointers](#two-pointers) (4)
@@ -71,6 +71,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
+| 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 2192C | [All-in-one Gun](https://codeforces.com/contest/2192/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2192/C%20-%20All-in-one%20Gun/solution.cpp) |
 | 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
 | 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
@@ -130,6 +131,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 2118A | [Equal Subsequences](https://codeforces.com/contest/2118/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2118/A%20-%20Equal%20Subsequences/solution.cpp) |
 | 2130B | [Pathless](https://codeforces.com/contest/2130/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2130/B%20-%20Pathless/solution.cpp) |
 | 2131B | [Alternating Series](https://codeforces.com/contest/2131/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2131/B%20-%20Alternating%20Series/solution.cpp) |
@@ -227,6 +229,7 @@
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
 | 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
 | 892B | [Wrath](https://codeforces.com/contest/892/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/892/B%20-%20Wrath/solution.cpp) |
+| 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 1925B | [A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1925/B%20-%20A%20Balanced%20Problemset%3F/solution.cpp) |
 | 2118A | [Equal Subsequences](https://codeforces.com/contest/2118/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2118/A%20-%20Equal%20Subsequences/solution.cpp) |
 | 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
@@ -325,6 +328,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
+| 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
 | 1925B | [A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1925/B%20-%20A%20Balanced%20Problemset%3F/solution.cpp) |
 | 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
@@ -384,6 +388,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
 | 1925B | [A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1925/B%20-%20A%20Balanced%20Problemset%3F/solution.cpp) |
 | 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.cpp) |
