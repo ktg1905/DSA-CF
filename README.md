@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 141 | 22 |
+| 142 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (24)
+- [Uncategorized](#uncategorized) (25)
 - [binary search](#binary-search) (8)
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (19)
@@ -65,6 +65,7 @@
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.cpp) |
 | 2269C | [K Is Important](https://codeforces.com/contest/2269/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2269/C%20-%20K%20Is%20Important/solution.cpp) |
+| 2277A | [Subset Selecting](https://codeforces.com/contest/2277/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2277/A%20-%20Subset%20Selecting/solution.cpp) |
 
 ### binary search
 
