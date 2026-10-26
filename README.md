@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 144 | 23 |
+| 145 | 23 |
 
 ---
 
@@ -26,10 +26,10 @@
 - [games](#games) (4)
 - [geometry](#geometry) (2)
 - [graphs](#graphs) (3)
-- [greedy](#greedy) (63)
+- [greedy](#greedy) (64)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (24)
-- [math](#math) (56)
+- [implementation](#implementation) (25)
+- [math](#math) (57)
 - [number theory](#number-theory) (14)
 - [sortings](#sortings) (21)
 - [strings](#strings) (14)
@@ -236,6 +236,7 @@
 | 892B | [Wrath](https://codeforces.com/contest/892/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/892/B%20-%20Wrath/solution.cpp) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 1925B | [A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1925/B%20-%20A%20Balanced%20Problemset%3F/solution.cpp) |
+| 1955C | [Inhabitant of the Deep Sea](https://codeforces.com/contest/1955/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1955/C%20-%20Inhabitant%20of%20the%20Deep%20Sea/solution.cpp) |
 | 2118A | [Equal Subsequences](https://codeforces.com/contest/2118/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2118/A%20-%20Equal%20Subsequences/solution.cpp) |
 | 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
 | 2119B | [Line Segments](https://codeforces.com/contest/2119/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/B%20-%20Line%20Segments/solution.cpp) |
@@ -308,6 +309,7 @@
 | 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
 | 892B | [Wrath](https://codeforces.com/contest/892/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/892/B%20-%20Wrath/solution.cpp) |
 | 1674C | [Infinite Replacement](https://codeforces.com/contest/1674/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1674/C%20-%20Infinite%20Replacement/solution.cpp) |
+| 1955C | [Inhabitant of the Deep Sea](https://codeforces.com/contest/1955/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1955/C%20-%20Inhabitant%20of%20the%20Deep%20Sea/solution.cpp) |
 | 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.cpp) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
 | 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
@@ -338,6 +340,7 @@
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
 | 1925B | [A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1925/B%20-%20A%20Balanced%20Problemset%3F/solution.cpp) |
+| 1955C | [Inhabitant of the Deep Sea](https://codeforces.com/contest/1955/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1955/C%20-%20Inhabitant%20of%20the%20Deep%20Sea/solution.cpp) |
 | 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
 | 2119B | [Line Segments](https://codeforces.com/contest/2119/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/B%20-%20Line%20Segments/solution.cpp) |
 | 2123A | [Blackboard Game](https://codeforces.com/contest/2123/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2123/A%20-%20Blackboard%20Game/solution.cpp) |
