@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 145 | 23 |
+| 147 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (25)
+- [Uncategorized](#uncategorized) (26)
 - [binary search](#binary-search) (8)
 - [bitmasks](#bitmasks) (5)
 - [brute force](#brute-force) (19)
@@ -21,16 +21,17 @@
 - [constructive algorithms](#constructive-algorithms) (22)
 - [data structures](#data-structures) (10)
 - [dfs and similar](#dfs-and-similar) (4)
-- [dp](#dp) (12)
+- [dp](#dp) (13)
 - [dsu](#dsu) (1)
 - [games](#games) (4)
 - [geometry](#geometry) (2)
-- [graphs](#graphs) (3)
+- [graphs](#graphs) (4)
 - [greedy](#greedy) (64)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (25)
+- [implementation](#implementation) (26)
 - [math](#math) (57)
 - [number theory](#number-theory) (14)
+- [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (21)
 - [strings](#strings) (14)
 - [trees](#trees) (1)
@@ -66,6 +67,7 @@
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.cpp) |
 | 2269C | [K Is Important](https://codeforces.com/contest/2269/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2269/C%20-%20K%20Is%20Important/solution.cpp) |
+| 2272A | [Maximize One MEX](https://codeforces.com/contest/2272/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2272/A%20-%20Maximize%20One%20MEX/solution.cpp) |
 | 2277A | [Subset Selecting](https://codeforces.com/contest/2277/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2277/A%20-%20Subset%20Selecting/solution.cpp) |
 
 ### binary search
@@ -184,6 +186,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1360E | [Polygon](https://codeforces.com/contest/1360/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1360/E%20-%20Polygon/solution.cpp) |
 | 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.cpp) |
 | 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
 | 2208C | [Stamina and Tasks](https://codeforces.com/contest/2208/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2208/C%20-%20Stamina%20and%20Tasks/solution.cpp) |
@@ -223,6 +226,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1360E | [Polygon](https://codeforces.com/contest/1360/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1360/E%20-%20Polygon/solution.cpp) |
 | 2176D | [Fibonacci Paths](https://codeforces.com/contest/2176/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2176/D%20-%20Fibonacci%20Paths/solution.cpp) |
 | 2276D | [Caveman](https://codeforces.com/contest/2276/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2276/D%20-%20Caveman/solution.cpp) |
 | 2277C | [Edge Addeleting](https://codeforces.com/contest/2277/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2277/C%20-%20Edge%20Addeleting/solution.cpp) |
@@ -308,6 +312,7 @@
 |---|---------|------------|----------|
 | 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
 | 892B | [Wrath](https://codeforces.com/contest/892/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/892/B%20-%20Wrath/solution.cpp) |
+| 1360E | [Polygon](https://codeforces.com/contest/1360/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1360/E%20-%20Polygon/solution.cpp) |
 | 1674C | [Infinite Replacement](https://codeforces.com/contest/1674/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1674/C%20-%20Infinite%20Replacement/solution.cpp) |
 | 1955C | [Inhabitant of the Deep Sea](https://codeforces.com/contest/1955/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1955/C%20-%20Inhabitant%20of%20the%20Deep%20Sea/solution.cpp) |
 | 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.cpp) |
@@ -412,6 +417,12 @@
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.cpp) |
 | 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
 | 2276C | [Subarrays](https://codeforces.com/contest/2276/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2276/C%20-%20Subarrays/solution.cpp) |
+
+### shortest paths
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1360E | [Polygon](https://codeforces.com/contest/1360/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1360/E%20-%20Polygon/solution.cpp) |
 
 ### sortings
 
