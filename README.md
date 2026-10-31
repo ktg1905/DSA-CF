@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 167 | 24 |
+| 168 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (33)
+- [Uncategorized](#uncategorized) (34)
 - [binary search](#binary-search) (10)
 - [bitmasks](#bitmasks) (7)
 - [brute force](#brute-force) (23)
@@ -76,6 +76,7 @@
 | 2278B | [Stakes and Shapes](https://codeforces.com/contest/2278/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2278/B%20-%20Stakes%20and%20Shapes/solution.cpp) |
 | 2278C | [Math and Physics](https://codeforces.com/contest/2278/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2278/C%20-%20Math%20and%20Physics/solution.cpp) |
 | 2278D | [Lock and Unlock](https://codeforces.com/contest/2278/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2278/D%20-%20Lock%20and%20Unlock/solution.cpp) |
+| 2278E | [Swap and Negate](https://codeforces.com/contest/2278/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2278/E%20-%20Swap%20and%20Negate/solution.cpp) |
 
 ### binary search
 
