@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 164 | 24 |
+| 165 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (30)
+- [Uncategorized](#uncategorized) (31)
 - [binary search](#binary-search) (10)
 - [bitmasks](#bitmasks) (7)
 - [brute force](#brute-force) (23)
@@ -73,6 +73,7 @@
 | 2272D | [Connecting the Conflicts](https://codeforces.com/contest/2272/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2272/D%20-%20Connecting%20the%20Conflicts/solution.cpp) |
 | 2277A | [Subset Selecting](https://codeforces.com/contest/2277/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2277/A%20-%20Subset%20Selecting/solution.cpp) |
 | 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.cpp) |
+| 2278B | [Stakes and Shapes](https://codeforces.com/contest/2278/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2278/B%20-%20Stakes%20and%20Shapes/solution.cpp) |
 
 ### binary search
 
