@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 174 | 24 |
+| 175 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (37)
+- [Uncategorized](#uncategorized) (38)
 - [binary search](#binary-search) (11)
 - [bitmasks](#bitmasks) (8)
 - [brute force](#brute-force) (24)
@@ -80,6 +80,7 @@
 | 2283A | [Numbers on the Board](https://codeforces.com/contest/2283/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2283/A%20-%20Numbers%20on%20the%20Board/solution.cpp) |
 | 2283B | [Rhythmic String](https://codeforces.com/contest/2283/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2283/B%20-%20Rhythmic%20String/solution.cpp) |
 | 2283C | [Big XOR](https://codeforces.com/contest/2283/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2283/C%20-%20Big%20XOR/solution.cpp) |
+| 2283D | [Black, Gray and White](https://codeforces.com/contest/2283/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2283/D%20-%20Black%2C%20Gray%20and%20White/solution.cpp) |
 
 ### binary search
 
