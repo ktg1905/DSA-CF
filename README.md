@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 177 | 24 |
+| 178 | 24 |
 
 ---
 
@@ -23,10 +23,10 @@
 - [dfs and similar](#dfs-and-similar) (5)
 - [dp](#dp) (16)
 - [dsu](#dsu) (1)
-- [games](#games) (5)
+- [games](#games) (6)
 - [geometry](#geometry) (4)
 - [graphs](#graphs) (5)
-- [greedy](#greedy) (74)
+- [greedy](#greedy) (75)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (29)
 - [math](#math) (65)
@@ -248,6 +248,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1695B | [Circle Game](https://codeforces.com/contest/1695/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1695/B%20-%20Circle%20Game/solution.cpp) |
 | 1968D | [Permutation Game](https://codeforces.com/contest/1968/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1968/D%20-%20Permutation%20Game/solution.cpp) |
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.cpp) |
 | 2228B | [Remilia Plays Soku](https://codeforces.com/contest/2228/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2228/B%20-%20Remilia%20Plays%20Soku/solution.cpp) |
@@ -284,6 +285,7 @@
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 1498B | [Box Fitting](https://codeforces.com/contest/1498/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1498/B%20-%20Box%20Fitting/solution.cpp) |
 | 1539A | [Contest Start](https://codeforces.com/contest/1539/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1539/A%20-%20Contest%20Start/solution.cpp) |
+| 1695B | [Circle Game](https://codeforces.com/contest/1695/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1695/B%20-%20Circle%20Game/solution.cpp) |
 | 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.cpp) |
 | 1845C | [Strong Password](https://codeforces.com/contest/1845/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1845/C%20-%20Strong%20Password/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
