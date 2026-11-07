@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 185 | 24 |
+| 186 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (43)
+- [Uncategorized](#uncategorized) (44)
 - [binary search](#binary-search) (12)
 - [bitmasks](#bitmasks) (8)
 - [brute force](#brute-force) (25)
@@ -79,6 +79,7 @@
 | 2278E | [Swap and Negate](https://codeforces.com/contest/2278/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2278/E%20-%20Swap%20and%20Negate/solution.cpp) |
 | 2280A | [Are They the Same?](https://codeforces.com/contest/2280/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2280/A%20-%20Are%20They%20the%20Same%3F/solution.cpp) |
 | 2280B | [Secret String Patterns](https://codeforces.com/contest/2280/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2280/B%20-%20Secret%20String%20Patterns/solution.cpp) |
+| 2280C | [Reverse and Double](https://codeforces.com/contest/2280/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2280/C%20-%20Reverse%20and%20Double/solution.cpp) |
 | 2283A | [Numbers on the Board](https://codeforces.com/contest/2283/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2283/A%20-%20Numbers%20on%20the%20Board/solution.cpp) |
 | 2283B | [Rhythmic String](https://codeforces.com/contest/2283/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2283/B%20-%20Rhythmic%20String/solution.cpp) |
 | 2283C | [Big XOR](https://codeforces.com/contest/2283/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2283/C%20-%20Big%20XOR/solution.cpp) |
