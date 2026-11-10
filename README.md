@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 190 | 24 |
+| 191 | 24 |
 
 ---
 
@@ -17,19 +17,19 @@
 - [bitmasks](#bitmasks) (8)
 - [brute force](#brute-force) (26)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
-- [combinatorics](#combinatorics) (5)
+- [combinatorics](#combinatorics) (6)
 - [constructive algorithms](#constructive-algorithms) (28)
-- [data structures](#data-structures) (13)
+- [data structures](#data-structures) (14)
 - [dfs and similar](#dfs-and-similar) (5)
 - [dp](#dp) (18)
 - [dsu](#dsu) (1)
 - [games](#games) (6)
 - [geometry](#geometry) (4)
 - [graphs](#graphs) (5)
-- [greedy](#greedy) (79)
+- [greedy](#greedy) (80)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (31)
-- [math](#math) (66)
+- [math](#math) (67)
 - [number theory](#number-theory) (19)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (25)
@@ -165,6 +165,7 @@
 | 1539A | [Contest Start](https://codeforces.com/contest/1539/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1539/A%20-%20Contest%20Start/solution.cpp) |
 | 1674C | [Infinite Replacement](https://codeforces.com/contest/1674/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1674/C%20-%20Infinite%20Replacement/solution.cpp) |
 | 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
+| 2000E | [Photoshoot for Gorillas](https://codeforces.com/contest/2000/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2000/E%20-%20Photoshoot%20for%20Gorillas/solution.cpp) |
 | 2240B | [AI Finds Nothing Here](https://codeforces.com/contest/2240/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2240/B%20-%20AI%20Finds%20Nothing%20Here/solution.cpp) |
 | 2276D | [Caveman](https://codeforces.com/contest/2276/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2276/D%20-%20Caveman/solution.cpp) |
 
@@ -207,6 +208,7 @@
 |---|---------|------------|----------|
 | 1498B | [Box Fitting](https://codeforces.com/contest/1498/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1498/B%20-%20Box%20Fitting/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
+| 2000E | [Photoshoot for Gorillas](https://codeforces.com/contest/2000/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2000/E%20-%20Photoshoot%20for%20Gorillas/solution.cpp) |
 | 2111D | [Creating a Schedule](https://codeforces.com/contest/2111/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2111/D%20-%20Creating%20a%20Schedule/solution.cpp) |
 | 2123C | [Prefix Min and Suffix Max](https://codeforces.com/contest/2123/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2123/C%20-%20Prefix%20Min%20and%20Suffix%20Max/solution.cpp) |
 | 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2133/A%20-%20Redstone%3F/solution.cpp) |
@@ -309,6 +311,7 @@
 | 1955C | [Inhabitant of the Deep Sea](https://codeforces.com/contest/1955/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1955/C%20-%20Inhabitant%20of%20the%20Deep%20Sea/solution.cpp) |
 | 1968D | [Permutation Game](https://codeforces.com/contest/1968/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1968/D%20-%20Permutation%20Game/solution.cpp) |
 | 1993B | [Parity and Sum](https://codeforces.com/contest/1993/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1993/B%20-%20Parity%20and%20Sum/solution.cpp) |
+| 2000E | [Photoshoot for Gorillas](https://codeforces.com/contest/2000/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2000/E%20-%20Photoshoot%20for%20Gorillas/solution.cpp) |
 | 2045C | [Saraga](https://codeforces.com/contest/2045/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2045/C%20-%20Saraga/solution.cpp) |
 | 2111D | [Creating a Schedule](https://codeforces.com/contest/2111/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2111/D%20-%20Creating%20a%20Schedule/solution.cpp) |
 | 2118A | [Equal Subsequences](https://codeforces.com/contest/2118/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2118/A%20-%20Equal%20Subsequences/solution.cpp) |
@@ -432,6 +435,7 @@
 | 1955C | [Inhabitant of the Deep Sea](https://codeforces.com/contest/1955/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1955/C%20-%20Inhabitant%20of%20the%20Deep%20Sea/solution.cpp) |
 | 1968D | [Permutation Game](https://codeforces.com/contest/1968/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1968/D%20-%20Permutation%20Game/solution.cpp) |
 | 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
+| 2000E | [Photoshoot for Gorillas](https://codeforces.com/contest/2000/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2000/E%20-%20Photoshoot%20for%20Gorillas/solution.cpp) |
 | 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
 | 2119B | [Line Segments](https://codeforces.com/contest/2119/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2119/B%20-%20Line%20Segments/solution.cpp) |
 | 2123A | [Blackboard Game](https://codeforces.com/contest/2123/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2123/A%20-%20Blackboard%20Game/solution.cpp) |
