@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 189 | 24 |
+| 190 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (45)
-- [binary search](#binary-search) (13)
+- [binary search](#binary-search) (14)
 - [bitmasks](#bitmasks) (8)
 - [brute force](#brute-force) (26)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
@@ -21,21 +21,21 @@
 - [constructive algorithms](#constructive-algorithms) (28)
 - [data structures](#data-structures) (13)
 - [dfs and similar](#dfs-and-similar) (5)
-- [dp](#dp) (17)
+- [dp](#dp) (18)
 - [dsu](#dsu) (1)
 - [games](#games) (6)
 - [geometry](#geometry) (4)
 - [graphs](#graphs) (5)
-- [greedy](#greedy) (78)
+- [greedy](#greedy) (79)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (30)
+- [implementation](#implementation) (31)
 - [math](#math) (66)
 - [number theory](#number-theory) (19)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (25)
-- [strings](#strings) (21)
+- [strings](#strings) (22)
 - [trees](#trees) (1)
-- [two pointers](#two-pointers) (5)
+- [two pointers](#two-pointers) (6)
 
 ---
 
@@ -96,6 +96,7 @@
 | 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 1498B | [Box Fitting](https://codeforces.com/contest/1498/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1498/B%20-%20Box%20Fitting/solution.cpp) |
+| 1535C | [Unstable String](https://codeforces.com/contest/1535/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1535/C%20-%20Unstable%20String/solution.cpp) |
 | 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.cpp) |
 | 1845C | [Strong Password](https://codeforces.com/contest/1845/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1845/C%20-%20Strong%20Password/solution.cpp) |
 | 1913C | [Game with Multiset](https://codeforces.com/contest/1913/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1913/C%20-%20Game%20with%20Multiset/solution.cpp) |
@@ -234,6 +235,7 @@
 |---|---------|------------|----------|
 | 1360E | [Polygon](https://codeforces.com/contest/1360/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1360/E%20-%20Polygon/solution.cpp) |
 | 1475B | [New Year's Number](https://codeforces.com/contest/1475/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1475/B%20-%20New%20Year's%20Number/solution.cpp) |
+| 1535C | [Unstable String](https://codeforces.com/contest/1535/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1535/C%20-%20Unstable%20String/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1845C | [Strong Password](https://codeforces.com/contest/1845/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1845/C%20-%20Strong%20Password/solution.cpp) |
 | 2121E | [Sponsor of Your Problems](https://codeforces.com/contest/2121/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2121/E%20-%20Sponsor%20of%20Your%20Problems/solution.cpp) |
@@ -296,6 +298,7 @@
 | 892B | [Wrath](https://codeforces.com/contest/892/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/892/B%20-%20Wrath/solution.cpp) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 1498B | [Box Fitting](https://codeforces.com/contest/1498/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1498/B%20-%20Box%20Fitting/solution.cpp) |
+| 1535C | [Unstable String](https://codeforces.com/contest/1535/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1535/C%20-%20Unstable%20String/solution.cpp) |
 | 1539A | [Contest Start](https://codeforces.com/contest/1539/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1539/A%20-%20Contest%20Start/solution.cpp) |
 | 1695B | [Circle Game](https://codeforces.com/contest/1695/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1695/B%20-%20Circle%20Game/solution.cpp) |
 | 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.cpp) |
@@ -383,6 +386,7 @@
 | 892B | [Wrath](https://codeforces.com/contest/892/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/892/B%20-%20Wrath/solution.cpp) |
 | 1027A | [Palindromic Twist](https://codeforces.com/contest/1027/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1027/A%20-%20Palindromic%20Twist/solution.cpp) |
 | 1360E | [Polygon](https://codeforces.com/contest/1360/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1360/E%20-%20Polygon/solution.cpp) |
+| 1535C | [Unstable String](https://codeforces.com/contest/1535/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1535/C%20-%20Unstable%20String/solution.cpp) |
 | 1674C | [Infinite Replacement](https://codeforces.com/contest/1674/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1674/C%20-%20Infinite%20Replacement/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
 | 1955C | [Inhabitant of the Deep Sea](https://codeforces.com/contest/1955/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1955/C%20-%20Inhabitant%20of%20the%20Deep%20Sea/solution.cpp) |
@@ -548,6 +552,7 @@
 | 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
 | 1027A | [Palindromic Twist](https://codeforces.com/contest/1027/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1027/A%20-%20Palindromic%20Twist/solution.cpp) |
 | 1473B | [String LCM](https://codeforces.com/contest/1473/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1473/B%20-%20String%20LCM/solution.cpp) |
+| 1535C | [Unstable String](https://codeforces.com/contest/1535/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1535/C%20-%20Unstable%20String/solution.cpp) |
 | 1674C | [Infinite Replacement](https://codeforces.com/contest/1674/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1674/C%20-%20Infinite%20Replacement/solution.cpp) |
 | 1845C | [Strong Password](https://codeforces.com/contest/1845/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1845/C%20-%20Strong%20Password/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
@@ -578,6 +583,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 892B | [Wrath](https://codeforces.com/contest/892/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/892/B%20-%20Wrath/solution.cpp) |
+| 1535C | [Unstable String](https://codeforces.com/contest/1535/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1535/C%20-%20Unstable%20String/solution.cpp) |
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
 | 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/ktg1905/DSA-CF/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
